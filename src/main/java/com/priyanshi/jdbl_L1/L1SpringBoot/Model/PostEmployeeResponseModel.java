@@ -1,13 +1,13 @@
-package com.priyanshi.jdbl_L1.L1SpringBoot;
+package com.priyanshi.jdbl_L1.L1SpringBoot.Model;
 
 public class PostEmployeeResponseModel {
 
-    int id;
-    String name;
-    int sal;
-    String dept;
-    int status;
-    String message;
+    public int id;
+    public String name;
+    public int sal;
+    public String dept;
+    public int status;
+    public String message;
 
     public PostEmployeeResponseModel(int id, String name,  int sal, String dept, int status,String message) {
         this.id = id;

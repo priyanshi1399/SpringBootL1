@@ -1,12 +1,12 @@
-package com.priyanshi.jdbl_L1.L1SpringBoot;
+package com.priyanshi.jdbl_L1.L1SpringBoot.Model;
 
 public class PostEmployeeRequestModel {
 
 
-    int id;
-    String name;
-    int sal;
-    String departmentName;
+    public int id;
+    public String name;
+    public int sal;
+    public String departmentName;
 
     public PostEmployeeRequestModel(int id, String name, int sal, String departmentName) {
         this.id = id;
